@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sistem Informasi</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 10px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* kolom utama border luar */
+        .page-border {
+            border: 1px solid #666;
+            padding: 5px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            border:1px solid #666;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 10px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            max-width: 250px;
+        }
+
+        .logo img {
+            height: 45px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            width: 80%;
+            justify-content: space-between;
+        }
+
+        .nav-links li {
+            border: 1px solid #666;
+            flex: 1;
+            text-align: center;
+            margin: 0 2px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #00f;
+            font-size: 12px;
+            display: block;
+            padding: 8px 0;
+        }
+
+        /* Banner Title */
+        .title-banner {
+            border: 1px solid #666;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        .title-banner h1 {
+            font-size: 18px;
+        }
+
+        /* Main Area */
+        .main-container {
+            border: 1px solid #666;
+            display: flex;
+            margin-bottom: 5px;
+        }
+
+        /* Artikel Utama (Sisi Kiri) */
+        main {
+            flex: 3;
+            padding: 15px;
+            border-right: 1px solid #666;
+        }
+
+        article h2 {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        article p {
+            font-size: 12px;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .video-container {
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+
+        /* Sidebar (Sisi Kanan) */
+        aside {
+            flex: 1;
+            padding: 15px;
+        }
+
+        aside h3 {
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar-section {
+            margin-bottom: 20px;
+        }
+
+        .sidebar-section ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .sidebar-section li {
+            margin-bottom: 8px;
+        }
+
+        .sidebar-section a {
+            color: #00f;
+            font-size: 11px;
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            border: 1px solid #666;
+        }
+
+        .footer-top {
+            display: flex;
+            padding: 15px;
+            border-bottom: 1px solid #666;
+            gap: 20px;
+        }
+
+        .footer-col {
+            flex: 1;
+            font-size: 11px;
+        }
+
+        .footer-col h4 {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        .footer-col p {
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+
+        .footer-col ul {
+            list-style-type: square;
+            padding-left: 15px;
+        }
+
+        .footer-col li {
+            margin-bottom: 4px;
+        }
+
+        .footer-bottom {
+            padding: 10px 15px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-border">
+        
+        <!-- Header & Navigasi Utama -->
+        <header>
+    <nav>
+        <!-- Logo Sistem Informasi ITTelkom Surabaya -->
+       <div class="logo">
+    <img src="logo.png">
+
+        <!-- Menu Navigasi -->
+        <ul class="nav-links">
+            <li><a href="#">tentang Kami</a></li>
+            <li><a href="#">Akademik</a></li>
+            <li><a href="#">Dosen & Staf</a></li>
+            <li><a href="#">Kerja Sama</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Admisi</a></li>
+        </ul>
+    </nav>
+</header>
+
+        <!-- Section Judul Utama Halaman -->
+        <section class="title-banner">
+            <h1>Blog Sistem Informasi</h1>
+        </section>
+
+        <!-- Area Konten Utama & Sidebar -->
+        <div class="main-container">
+            
+            <!-- Konten Artikel Utama (Elemen Main & Article) -->
+            <main>
+                <article>
+                    <h2>Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</h2>
+                    
+                    <p>Institut Teknologi Telkom Surabaya telah menggelar prosesi wisuda ke-4 secara luring di hotel Grand Dafam, Surabaya pada Sabtu (26/03/2022) kemarin. Prosesi wisuda ini merupakan yang pertama dilakukan sejak kampus ini berdiri di tahun 2018 lalu. Pada wisuda pertama ini, 16 wisudawan telah dinyatakan lulus secara sah oleh Rektor ITTelkom Surabaya Bapak Dr. Tri Arief Sardjono, S.T., M.T.</p>
+                    
+                    <p>Seluruh wisudawan merupakan mahasiswa yang berhasil lulus dengan masa studi 3,5 tahun. Dua diantaranya merupakan mahasiswa program studi Sistem Informasi. Mereka adalah Amalia Tri Setya Budianti dan Ibnu Dwi Ayuwodi. Keduanya berhasil menyandang gelar S.Kom dengan predikat cumlaude. Wisudawan dengan IPK tertinggi adalah Amalia Tri Setya Budianti yang berhasil lulus merupakan mahasiswa program studi Sistem Informasi dengan IPK 3,90.</p>
+                    
+                    <p>Pada prosesi wisuda ini pula, Rektor ITTelkom Surabaya telah menyampaikan pesannya dengan penuh sukacita. Beliau berpesan bagi seluruh wisudawan agar terus mengembangkan diri sehingga dapat mengambil peran di era transformasi digital yang disruptif ini. Acara wisuda ini dapat disaksikan melalui kanal YouTube ITTelkom Surabaya: <a href="https://youtu.be/L1-EaEkxrEw" target="_blank">https://youtu.be/L1-EaEkxrEw</a></p>
+
+                    <!-- Embed Media Video YouTube -->
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/bboTVfT1NWY"
+                                title="YouTube video player" 
+                        title="YouTube video player" frameborder="0" allowfullscreen>
+                    </iframe>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Sidebar Artikel Tambahan (Elemen Aside) -->
+            <aside>
+                <section class="sidebar-section">
+                    <h3>Artikel Terbaru</h3>
+                    <ul>
+                        <li><a href="#">Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</a></li>
+                        <li><a href="#">Dua Mahasiswa Sistem Informasi Raih Penghargaan di ajang Putra Putri Jatim 2021</a></li>
+                        <li><a href="#">PLAYBOX hadir kembali !! Segera daftarkan dirimu di PLAYBOX Season II</a></li>
+                        <li><a href="#">Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</a></li>
+                        <li><a href="#">Dua Mahasiswa Sistem Informasi Raih Penghargaan di ajang Putra Putri Jatim 2021</a></li>
+                        <li><a href="#">PLAYBOX hadir kembali !! Segera daftarkan dirimu di PLAYBOX Season II</a></li>
+                    </ul>
+                </section>
+
+                <section class="sidebar-section">
+                    <h3>Artikel Terpopuler</h3>
+                    <ul>
+                        <li><a href="#">Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</a></li>
+                        <li><a href="#">Dua Mahasiswa Sistem Informasi Raih Penghargaan di ajang Putra Putri Jatim 2021</a></li>
+                        <li><a href="#">PLAYBOX hadir kembali !! Segera daftarkan dirimu di PLAYBOX Season II</a></li>
+                        <li><a href="#">Dua Wisudawan Sistem Informasi Berhasil Meraih Predikat Cumlaude</a></li>
+                        <li><a href="#">Dua Mahasiswa Sistem Informasi Raih Penghargaan di ajang Putra Putri Jatim 2021</a></li>
+                    </ul>
+                </section>
+            </aside>
+
+        </div>
+
+        <!-- Footer Halaman -->
+        <footer>
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4>Sistem Informasi</h4>
+                    <p>Situs resmi Program Studi Sistem Informasi Institut Teknologi Telkom Surabaya. Website ini diperuntukkan sebagai media komunikasi internal & eksternal bagi mahasiswa, dosen, dan karyawan.</p>
+                    <p>Program Studi Sistem Informasi telah ada sejak berdirinya Institut Teknologi Telkom Surabaya, berdasarkan Keputusan Menteri Riset, Teknologi, dan Pendidikan Tinggi no. 733/KPT/I/2018.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Tautan Penting</h4>
+                    <ul>
+                        <li>Mahasiswa & Alumni</li>
+                        <li>Kerja Sama</li>
+                        <li>Proyek</li>
+                    </ul>
+                    <br>
+                    <h4>Tautan Bermanfaat</h4>
+                    <ul>
+                        <li>Telkom Indonesia</li>
+                        <li>Yayasan Pendidikan Telkom</li>
+                        <li>ITTelkom Surabaya</li>
+                        <li>Website SMB</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Info Kontak</h4>
+                    <p><b>Alamat:</b> Jl. Ketintang No.156, Surabaya, Jawa Timur 60231</p>
+                    <p><b>Telepon:</b> +62 31 8280800</p>
+                    <p><b>Email:</b> is@ittelkom-sby.ac.id</p>
+                    <br>
+                    <h4>Media Sosial</h4>
+                    <ul>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><b>Copyright © 2022 Information Systems</b></p>
+                <p>Build with ♥ by CODES Team</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+    </style>
+</head>
+</html>
